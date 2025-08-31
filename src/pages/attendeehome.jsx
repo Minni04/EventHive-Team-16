@@ -106,9 +106,7 @@ function AttendeeHome() {
 
           {user && (
             <>
-              <p className="text-gray-700 font-semibold mr-4">
-                Loyalty Points: {loyaltyPoints}
-              </p>
+            
               <button
                 onClick={() => navigate("/my-tickets")}
                 className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-colors"
