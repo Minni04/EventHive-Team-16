@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { doc, getDoc, addDoc, collection, updateDoc } from "firebase/firestore";
 import { db } from "../firebase/config";
-import { useAuth } from "../hooks/useAuth";
+import { useAuth } from "../hooks/useauth";
 import { QRCodeCanvas } from "qrcode.react";
 import { jsPDF } from "jspdf";        // ✅ Corrected import
 import html2canvas from "html2canvas";

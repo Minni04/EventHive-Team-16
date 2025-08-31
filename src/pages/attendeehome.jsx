@@ -13,7 +13,7 @@ function AttendeeHome() {
   const [trendingEvents, setTrendingEvents] = useState([]);
   const [myEvents, setMyEvents] = useState([]);
   const [filteredEvents, setFilteredEvents] = useState([]);
-  const [loyaltyPoints, setLoyaltyPoints] = useState(0);
+
 
   // Fetch user points
   useEffect(() => {

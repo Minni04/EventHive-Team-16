@@ -3,8 +3,8 @@ import { useEffect, useState } from "react";
 import { db } from "../firebase/config";
 import { collection, onSnapshot, deleteDoc, doc } from "firebase/firestore";
 import { useAuth } from "../hooks/useauth";
-import EventForm from "../components/EventForm";
-import EventList from "../components/EventList";
+import EventForm from "../components/eventform";
+import EventList from "../components/eventlist";
 
 function Home() {
   const { user, logout } = useAuth();
